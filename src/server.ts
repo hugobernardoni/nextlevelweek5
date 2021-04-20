@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
     return res.json({
-        message: "Usuário salvo com sucessos!"
+        message: "Usuário salvo com sucesso!"
     })
 })
 
