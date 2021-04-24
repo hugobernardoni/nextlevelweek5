@@ -25,7 +25,7 @@ class MessagesController {
             const { id } = req.params;
 
             const messagesService = new MessagesService();
-            const messages = await messagesService.litsByUser(id);
+            const messages = await messagesService.listByUser(id);
 
             return res.json(messages);
         }
